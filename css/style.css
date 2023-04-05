@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&family=Titillium+Web:ital,wght@0,300;0,400;0,600;0,700;0,900;1,300;1,400;1,600;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;800;900&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&family=Titillium+Web:ital,wght@0,300;0,400;0,600;0,700;0,900;1,300;1,400;1,600;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;1,700&display=swap');
 
 body {
     font-family: 'Inter', sans-serif;
@@ -6,8 +6,8 @@ body {
 
 .bg-banner {
     background-image: url('../shape/Line4.png');
-    width: 100%;
-    height: 90vh;
+    /* width: 100%;
+    height: 90vh; */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -16,4 +16,116 @@ body {
 
 .padding {
     padding-left: 4rem;
+}
+
+.bg-image {
+    background-image: url('//shape/blue-bol.png');
+    /* background-color: #08192d; */
+    width: 100% !important;
+    height: 100% !important;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.card-bg {
+    background-image: url('../shape/Line4.png');
+    background-color: #08192d;
+    width: 100% !important;
+    height: 100vh !important;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.card-body {
+    background-color: rgb(23 37 53);
+}
+
+.Services-text {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.head-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.font-medium {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 500;
+
+}
+
+.line-throw {
+
+    border-bottom: solid 1px black;
+}
+
+.Spacific-color {
+    background-color: #edf2f4;
+
+}
+
+.Spacific-bg-img {
+    background-image: url('../images/bannerbg.png');
+    /* width: 40% !important; */
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: inherit;
+    background-position: top;
+}
+
+.Company-color {
+    color: #848484 !important;
+}
+
+.google-start {
+    width: 85%;
+}
+
+
+/*-------------
+    footer 
+-------------*/
+
+.footer-bg-color {
+    background-color: #08192d;
+}
+
+.footer-heading {
+    font-size: 16px;
+    color: #aaafb9;
+}
+
+.footer-style li {
+
+    padding-top: 10px !important;
+}
+
+.footer-style li a {
+    font-size: 17px !important;
+    text-decoration: none;
+    color: white;
+
+}
+
+.footer-style li a:hover {
+    text-decoration: underline;
+}
+
+.padding-border {
+    color: #858d98 !important;
+    padding-left: 52px;
+
+}
+
+.footer-last-text {
+    font-size: 19px;
+    color: #aaafb9;
 }

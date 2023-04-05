@@ -6,53 +6,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.1.1/swiper-bundle.min.js"
+        integrity="sha512-J0i98QZsJc12MkNEyDbinrKKoe7Jiw0rtryAXBesZrVwRkaqgP9QNCPyo5sMZ2jfiJQb+9RIE4I3xNl8fFqQIA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
 </head>
 
 <body>
-    <nav class="navbar  bg-transparent navbar-expand-lg bg-body-tertiary">
-        <div class="container">
-            <a class="navbar-brand padding" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto  mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item ms-3 dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Dropdown
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item ms-3" href="#">Something else here</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled">Disabled</a>
-                    </li>
-                </ul>
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
+    <section class="bg-banner ">
+        <nav class="navbar  navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand  text-white padding" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto   mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active  text-white" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link  text-white" href="#">Link</a>
+                        </li>
+                        <li class="nav-item ms-3 dropdown">
+                            <a class="nav-link dropdown-toggle  text-white" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item ms-3" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled  text-white">Disabled</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
             </div>
-        </div>
-    </nav>
-    <section class="bg-banner pt-5">
+        </nav>
         <div class="container">
             <div class="row">
                 <div class="col-md-6 ">
@@ -60,7 +64,8 @@
                         <h1 class="display-2 fw-bolder pt-5">Affordable
                             Hostim Solution
                             Website</h1>
-                        <p class="pb-5 pt-2">Make moves a free domain and SSL included with a yearly susbscription.</p>
+                        <p class="pb-5 pt-2">Make moves a free domain and SSL included with a yearly <br> susbscription.
+                        </p>
                         <button type="button" class="btn py-3 px-3  rounded-pill   btn-outline-primary">See
                             plans</button>
                         <button type="button" class="btn ms-3 py-3 px-4 rounded-pill   btn-outline-primary">Try a free
@@ -76,16 +81,27 @@
             </div>
         </div>
     </section>
-    <section>
-        <div class="container pt-4">
+    <section class="  py-5">
+        <div class="container  py-3">
+            <div class="row">
+                <div class="col">
+                    <div class=" Company-color">
+                        <img class="padding img-fluid" src="images/Trust Company Log.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class=" pt-2">
+        <div class="container pt-5">
             <div class="row  justify-content-center  align-items-center">
                 <div class="col-md-6">
                     <div class="text-center padding">
-                        <img class="img-fluid" src="images/googlestart.png" alt="">
+                        <img class="img-fluid google-start" src="images/googlestart.png" alt="">
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <div class="padding">
+                    <div class="padding pt-5">
                         <h2 class="fw-bolder">More than 96K brands join & <br> website owners are satisfied</h2>
                         <p class="pt-2">Don't just take our word for it. We're the web hosting provider <br> of choice
                             for thousands
@@ -101,6 +117,8 @@
             </div>
         </div>
     </section>
+
+
     <section>
         <div class="container py-5">
             <div class="row">
@@ -152,22 +170,513 @@
     </section>
 
     <!-- Services -->
-    <section>
+    <!-- <section>
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
-                    <div>
-                        <img src="images/men-smile.png" alt="">
+                <div class="col-md-6 ">
+                    <div class=" bg-image">
+                        <img class="img-fluid " src="images/men-smile.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <section class="card-bg pt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="padding">
+                        <div class="card border-success mb-3" style="max-width: 21rem;">
+                            <div class="card-body text-success ">
+                                <div class="text-center bg-transparent">
+                                    <h5 class="text-sm ">Single Shared Hosting</h5>
+                                    <p class="">Ideal solution for beginners</p>
+                                </div>
+                                <div class="text-center">
+                                    <h1><sup><span class="mt-2 pt-2">$</span></sup><span
+                                            class="display-4 fw-bolder">1.99</span><sub>/mo</sub></h1>
+                                    <p>USD</p>
+                                    <input type="button" value="">
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
+    <section class="py-5">
+        <div class="container pt-5">
+            <div class="py-3 w-100 head-center ">
+                <h1 class="">Our Services include</h1>
+            </div>
+            <div class=" row justify-content-center align-items-center">
+
+                <div class="col-md-4">
+                    <div class="padding">
+                        <div class="pt-3 d-flex justify-content-start align-items-center">
+                            <img src="icons/Checkbox.png" alt=""> <span></span>
+                            <p class="ms-3 Services-text pt-3">Free SS</p>
+                        </div>
+                        <div class="pt-3 d-flex justify-content-start align-items-center">
+                            <img src="icons/Checkbox.png" alt=""> <span></span>
+                            <p class="ms-3 Services-text pt-3">Free Migration</p>
+                        </div>
+                        <div class="pt-3 d-flex justify-content-start align-items-center">
+                            <img src="icons/Checkbox.png" alt=""> <span></span>
+                            <p class="ms-3 Services-text pt-3">PHP Speed Boost</p>
+                        </div>
+                        <div class="pt-3 d-flex justify-content-start align-items-center">
+                            <img src="icons/Checkbox.png" alt=""> <span></span>
+                            <p class="ms-3 Services-text pt-3">24/7/365 Tech Support</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="padding">
+                        <div class="pt-3 d-flex justify-content-start align-items-center">
+                            <img src="icons/Checkbox.png" alt="">
+                            <p class="ms-3 Services-text pt-3">Access Management</p>
+                        </div>
+                        <div class="pt-3 d-flex justify-content-start align-items-center">
+                            <img src="icons/Checkbox.png" alt="">
+                            <p class="ms-3 Services-text pt-3">Backups</p>
+                        </div>
+                        <div class="pt-3 d-flex justify-content-start align-items-center">
+                            <img src="icons/Checkbox.png" alt="">
+                            <p class="ms-3 Services-text pt-3">LiteSpeed WordPress Module</p>
+                        </div>
+                        <div class="pt-3 d-flex justify-content-start align-items-center">
+                            <img src="icons/Checkbox.png" alt="">
+                            <p class="ms-3 Services-text pt-3">Auto Script Installer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="padding">
+                        <div class="pt-3 d-flex justify-content-start align-items-center">
+                            <img src="icons/Checkbox.png" alt="">
+                            <p class="ms-3 Services-text pt-3">eCommerce Optimization</p>
+                        </div>
+                        <div class="pt-3 d-flex justify-content-start align-items-center">
+                            <img src="icons/Checkbox.png" alt="">
+                            <p class="ms-3 Services-text pt-3">Cloudflare CDN & DDoS Protection</p>
+                        </div>
+                        <div class="pt-3 d-flex justify-content-start align-items-center">
+                            <img src="icons/Checkbox.png" alt="">
+                            <p class="ms-3 Services-text pt-3">One-Click WordPress Installation</p>
+                        </div>
+                        <div class="pt-3 d-flex justify-content-start align-items-center">
+                            <img src="icons/Checkbox.png" alt="">
+                            <p class="ms-3 Services-text pt-3">99.9% Uptime Guarantee</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="padding">
+                        <!-- Swiper -->
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div>
+                                        <img src="icons/stars5.png" alt="">
+                                    </div>
+                                    <p class="font-medium pt-4">Amet minim mollit non deserunt <br> ullamco est sit
+                                        aliqua
+                                        dolor
+                                        ed do amet <br> sint.
+                                        Velit officia consequat duis enim <br> velit mollit. rcitation veniam consequat
+                                        sunt
+                                    </p>
+                                    <button class="border-0 font-medium border-bottom bg-transparent">Read more</button>
+                                    <div class="d-flex pt-4">
+                                        <div>
+                                            <img class="img-fluid" src="images/user.png" alt="">
+                                        </div>
+                                        <div class="ms-3">
+                                            <h2 class="font-medium">Ahmed Khokon</h2>
+                                            <p>Brand Desinger</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div>
+                                        <img src="icons/stars5.png" alt="">
+                                    </div>
+                                    <p class="font-medium pt-4">Amet minim mollit non deserunt <br> ullamco est sit
+                                        aliqua
+                                        dolor
+                                        ed do amet <br> sint.
+                                        Velit officia consequat duis enim <br> velit mollit. rcitation veniam consequat
+                                        sunt
+                                    </p>
+                                    <button class="border-0 font-medium border-bottom bg-transparent">Read more</button>
+                                    <div class="d-flex pt-4">
+                                        <div>
+                                            <img class="img-fluid" src="images/user.png" alt="">
+                                        </div>
+                                        <div class="ms-3">
+                                            <h2 class="font-medium">Ahmed Khokon</h2>
+                                            <p>Brand Desinger</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div>
+                                        <img src="icons/stars5.png" alt="">
+                                    </div>
+                                    <p class="font-medium pt-4">Amet minim mollit non deserunt <br> ullamco est sit
+                                        aliqua
+                                        dolor
+                                        ed do amet <br> sint.
+                                        Velit officia consequat duis enim <br> velit mollit. rcitation veniam consequat
+                                        sunt
+                                    </p>
+                                    <button class="border-0 font-medium border-bottom bg-transparent">Read more</button>
+                                    <div class="d-flex pt-4">
+                                        <div>
+                                            <img class="img-fluid" src="images/user.png" alt="">
+                                        </div>
+                                        <div class="ms-3">
+                                            <h2 class="font-medium">Ahmed Khokon</h2>
+                                            <p>Brand Desinger</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div>
+                                        <img src="icons/stars5.png" alt="">
+                                    </div>
+                                    <p class="font-medium pt-4">Amet minim mollit non deserunt <br> ullamco est sit
+                                        aliqua
+                                        dolor
+                                        ed do amet <br> sint.
+                                        Velit officia consequat duis enim <br> velit mollit. rcitation veniam consequat
+                                        sunt
+                                    </p>
+                                    <button class="border-0 font-medium border-bottom bg-transparent">Read more</button>
+                                    <div class="d-flex pt-4">
+                                        <div>
+                                            <img class="img-fluid" src="images/user.png" alt="">
+                                        </div>
+                                        <div class="ms-3">
+                                            <h2 class="font-medium">Ahmed Khokon</h2>
+                                            <p>Brand Desinger</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div>
+                                        <img src="icons/stars5.png" alt="">
+                                    </div>
+                                    <p class="font-medium pt-4">Amet minim mollit non deserunt <br> ullamco est sit
+                                        aliqua
+                                        dolor
+                                        ed do amet <br> sint.
+                                        Velit officia consequat duis enim <br> velit mollit. rcitation veniam consequat
+                                        sunt
+                                    </p>
+                                    <button class="border-0 font-medium border-bottom bg-transparent">Read more</button>
+                                    <div class="d-flex pt-4">
+                                        <div>
+                                            <img class="img-fluid" src="images/user.png" alt="">
+                                        </div>
+                                        <div class="ms-3">
+                                            <h2 class="font-medium">Ahmed Khokon</h2>
+                                            <p>Brand Desinger</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div>
+                                        <img src="icons/stars5.png" alt="">
+                                    </div>
+                                    <p class="font-medium pt-4">Amet minim mollit non deserunt <br> ullamco est sit
+                                        aliqua
+                                        dolor
+                                        ed do amet <br> sint.
+                                        Velit officia consequat duis enim <br> velit mollit. rcitation veniam consequat
+                                        sunt
+                                    </p>
+                                    <button class="border-0 font-medium border-bottom bg-transparent">Read more</button>
+                                    <div class="d-flex pt-4">
+                                        <div>
+                                            <img class="img-fluid" src="images/user.png" alt="">
+                                        </div>
+                                        <div class="ms-3">
+                                            <h2 class="font-medium">Ahmed Khokon</h2>
+                                            <p>Brand Desinger</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div>
+                                        <img src="icons/stars5.png" alt="">
+                                    </div>
+                                    <p class="font-medium pt-4">Amet minim mollit non deserunt <br> ullamco est sit
+                                        aliqua
+                                        dolor
+                                        ed do amet <br> sint.
+                                        Velit officia consequat duis enim <br> velit mollit. rcitation veniam consequat
+                                        sunt
+                                    </p>
+                                    <button class="border-0 font-medium border-bottom bg-transparent">Read more</button>
+                                    <div class="d-flex pt-4">
+                                        <div>
+                                            <img class="img-fluid" src="images/user.png" alt="">
+                                        </div>
+                                        <div class="ms-3">
+                                            <h2 class="font-medium">Ahmed Khokon</h2>
+                                            <p>Brand Desinger</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div>
+                                        <img src="icons/stars5.png" alt="">
+                                    </div>
+                                    <p class="font-medium pt-4">Amet minim mollit non deserunt <br> ullamco est sit
+                                        aliqua
+                                        dolor
+                                        ed do amet <br> sint.
+                                        Velit officia consequat duis enim <br> velit mollit. rcitation veniam consequat
+                                        sunt
+                                    </p>
+                                    <button class="border-0 font-medium border-bottom bg-transparent">Read more</button>
+                                    <div class="d-flex pt-4">
+                                        <div>
+                                            <img class="img-fluid" src="images/user.png" alt="">
+                                        </div>
+                                        <div class="ms-3">
+                                            <h2 class="font-medium">Ahmed Khokon</h2>
+                                            <p>Brand Desinger</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                </div>
+                                <div class="swiper-pagination"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section class="py-5 Spacific-color">
+        <div class="container ">
+            <div class="row">
+                <div class="col-md-6 pt-5">
+                    <div class="padding pt-5">
+                        <h5 class="pt-2">Spacific tags</h5>
+                        <h1>Lorem Ipsum is probably the most popular</h1>
+                        <p>To a degree, Lorem Ipsum is gibberish, but it is rooted in a real language: Latin. The text's
+                            origins are based on a passage from a piece of classicall.</p>
+                        <button>Read more</button>
+                    </div>
+                </div>
+                <div class="col-md-6 pt-4 Spacific-bg-img">
+                    <div class="pt-5 d-flex justify-content-center align-items-center">
+                        <img class="img-fluid w-75" src="images/control_panel.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-----------------------------------------------
+                                 Host
+    ------------------------------------------------------------>
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div>
+                        <h1 class="padding">Hostim in world <br> Datacenters</h1>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="text-center border border-rounded">
+                                <h1 class="display-5 fw-bold">2</h1>
+                                <p>Continents</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-5 footer-bg-color">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="padding">
+                        <img class="img-fluid" src="images/footer-logo.png" alt="">
+                        <p class="text-white pt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
+                            purus
+                            sit ...</p>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="text-white">
+                        <h2 class="footer-heading">Resources</h2>
+                        <ul class="list-unstyled footer-style">
+                            <li>
+                                <a href="" class="">Domain</a>
+                            </li>
+                            <li>
+                                <a href="">Shared Hosting</a>
+                            </li>
+                            <li>
+                                <a href="">Web Hosting</a>
+                            </li>
+                            <li>
+                                <a href="">Private Hosting</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="text-white">
+                        <h2 class="footer-heading">Hosting</h2>
+                        <ul class="list-unstyled footer-style">
+                            <li>
+                                <a href="" class="">Game Server Hosting</a>
+                            </li>
+                            <li>
+                                <a href="">Hosting Wordpress</a>
+                            </li>
+                            <li>
+                                <a href="">Email Hosting</a>
+                            </li>
+                            <li>
+                                <a href="">Hosting Unlimited</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="text-white">
+                        <h2 class="footer-heading">Company</h2>
+                        <ul class="list-unstyled footer-style">
+                            <li>
+                                <a href="" class="">About</a>
+                            </li>
+                            <li>
+                                <a href="">Career</a>
+                            </li>
+                            <li>
+                                <a href="">Email Hosting</a>
+                            </li>
+                            <li>
+                                <a href="">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="text-white">
+                        <h2 class="footer-heading">Help</h2>
+                        <ul class="list-unstyled footer-style">
+                            <li>
+                                <a href="" class="">FAQ</a>
+                            </li>
+                            <li>
+                                <a href="">Help support</a>
+                            </li>
+                            <li>
+                                <a href="">Legal documents</a>
+                            </li>
+                            <li>
+                                <a href="">Ecology</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="container py-4">
+                <div class="row">
+                    <div class="col">
+                        <div class="padding-border">
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container pt-4">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="padding text-white">
+                            <span class="footer-last-text ">© 2022 Hostim. Tous droits réservés.</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6 ">
+                        <div class="ms-3 d-flex justify-content-end align-items-end">
+                            <img class="ms-4" src="icons/tw.png" alt="">
+                            <img class="ms-4" src="icons/link.png" alt="">
+                            <img class="ms-4" src="icons/face.png" alt="">
+                            <img class="ms-4" src="icons/dribble.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 3,
+            // centeredSlides: true,
+            spaceBetween: 30,
+            grabCursor: true,
+            delay: 500,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
+    </script>
 
 
 
@@ -178,6 +687,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
         crossorigin="anonymous"></script>
+
+
+
+
 </body>
 
 </html>
