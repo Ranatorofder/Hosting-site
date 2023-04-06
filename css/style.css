@@ -4,6 +4,14 @@ body {
     font-family: 'Inter', sans-serif;
 }
 
+.font-small {
+    font-size: 18px;
+}
+
+.font-normal {
+    font-weight: 400;
+}
+
 .bg-banner {
     background-image: url('../shape/Line4.png');
     /* width: 100%;
@@ -29,19 +37,21 @@ body {
 
 }
 
+/**********************
+             card
+    **************************/
+
 .card-bg {
     background-image: url('../shape/Line4.png');
     background-color: #08192d;
     width: 100% !important;
-    height: 100vh !important;
+    /* height: 100vh !important; */
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
 }
 
-.card-body {
-    background-color: rgb(23 37 53);
-}
+
 
 .Services-text {
     font-size: 18px;
@@ -89,6 +99,16 @@ body {
     width: 85%;
 }
 
+/*--------------------
+          hostim 
+ ------------------------*/
+
+.hostim-text {
+    font-size: 48px;
+
+    line-height: 56px;
+}
+
 
 /*-------------
     footer 
@@ -126,6 +146,6 @@ body {
 }
 
 .footer-last-text {
-    font-size: 19px;
+    font-size: 18px;
     color: #aaafb9;
 }
