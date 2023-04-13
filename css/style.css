@@ -1,7 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;800;900&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&family=Titillium+Web:ital,wght@0,300;0,400;0,600;0,700;0,900;1,300;1,400;1,600;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;700;500,900&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&family=Titillium+Web:ital,wght@0,300;0,400;0,600;0,700;0,900;1,300;1,400;1,600;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;1,700&display=swap');
+
+
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    outline: none;
+}
+
 
 body {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter', sans-serif !important;
+    /* font-family: 'Quantico', sans-serif !important; */
+    /* font-family: 'Titillium Web', sans-serif !important; */
+    /* font-family: 'Ubuntu', sans-serif !important; */
+    /* overflow: hidden; */
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
 .font-small {
@@ -9,7 +30,23 @@ body {
 }
 
 .font-normal {
-    font-weight: 400;
+    font-weight: 400 !important;
+}
+
+.padding {
+    padding-left: 4rem;
+}
+
+.header-scrolled {
+    position: fixed;
+    top: 0.4rem;
+    left: 0;
+    right: 0;
+    width: 100%;
+    max-width: 1320px;
+    margin: auto;
+    z-index: 999;
+    transition: 0.3s all ease-in-out;
 }
 
 .bg-banner {
@@ -22,19 +59,62 @@ body {
     background-color: #08192d;
 }
 
-.padding {
-    padding-left: 4rem;
+
+
+.main-btn {
+    text-decoration: none;
+    color: #fff;
+    background-color: #0067ff;
+    border-radius: 9999px;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    padding: 16px 36px;
+    transition-duration: .15s;
+    transition-property: all;
 }
 
-.bg-image {
-    background-image: url('//shape/blue-bol.png');
+.big-btn {
+    text-decoration: none;
+    color: #08192d;
+    background-color: #fff;
+    border-radius: 9999px;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    padding: 16px 36px;
+    transition-duration: .15s;
+    transition-property: all;
+}
+
+.big-btn:hover {
+    background-color: #0067ff;
+    color: #fff;
+}
+
+.bg-services-image {
+    background-image: url('../shape/blue-bol.png');
     /* background-color: #08192d; */
     width: 100% !important;
-    height: 100% !important;
-    background-size: cover;
+    height: 75vh !important;
+    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
 
+}
+
+.services-phon-img {
+    border-radius: 5px;
+    width: 36%;
+    bottom: 25%;
+    left: 40%;
+    transform: rotate(-18deg);
+}
+
+.services-bg-color {
+    background-color: #0d55ab;
 }
 
 /**********************
@@ -49,9 +129,18 @@ body {
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
+    /* overflow: hidden; */
 }
 
+.chake-box-text-color {
+    font-size: 16px;
+    font-weight: 400;
+    color: #c6a825;
+}
 
+.gradiyent-color {
+    background: linear-gradient(50deg, #152d3d, #0e5b7e);
+}
 
 .Services-text {
     font-size: 18px;
@@ -91,12 +180,33 @@ body {
     background-position: top;
 }
 
+.Spacific-bg-img-blue {
+    background-image: url('../images/bannerbgblue.png');
+    /* width: 40% !important; */
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+}
+
 .Company-color {
     color: #848484 !important;
 }
 
 .google-start {
     width: 85%;
+}
+
+.our-service-bg-color {
+    background-color: #d8ebf5;
+
+}
+
+.service-wrapper .card {
+    z-index: 10;
+    /* right: -30%; */
+    top: 7%;
+    left: -17%;
 }
 
 /*--------------------
@@ -109,6 +219,21 @@ body {
     line-height: 56px;
 }
 
+
+.accordion-button:not(.collapsed) {
+    background-color: #fff !important;
+}
+
+.accordion-button:focus {
+    box-shadow: none !important;
+}
+
+/* swiper */
+
+
+/* .swiper-pagination .swiper-pagination-bullet {
+    display: none;
+} */
 
 /*-------------
     footer 
@@ -148,4 +273,44 @@ body {
 .footer-last-text {
     font-size: 18px;
     color: #aaafb9;
+}
+
+
+
+
+
+
+@media (max-width: 1400px) {
+    .padding {
+        padding: 0px !important;
+    }
+}
+
+@media (max-width: 570px) {
+    .services-phon-img {
+        /* border-radius: 5px; */
+        width: 45%;
+        bottom: 20%;
+        left: 20%;
+        transform: rotate(-18deg);
+    }
+
+    .service-men-img {
+        width: 75%;
+        top: -20%;
+    }
+
+    .bg-services-image {
+
+        width: 65% !important;
+        height: 65vh !important;
+
+
+    }
+
+    .service-wrapper .card {
+
+        /* top: 7%; */
+        left: 0%;
+    }
 }

@@ -12,70 +12,119 @@
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <script src="js/main.js"></script>
 </head>
 
 <body>
     <section class="bg-banner ">
-        <nav class="navbar  navbar-expand-lg">
-            <div class="container">
-                <a class="navbar-brand  text-white padding" href="#">Navbar</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto   mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active  text-white" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link  text-white" href="#">Link</a>
-                        </li>
-                        <li class="nav-item ms-3 dropdown">
-                            <a class="nav-link dropdown-toggle  text-white" href="#" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Dropdown
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item ms-3" href="#">Something else here</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled  text-white">Disabled</a>
-                        </li>
-                    </ul>
-                    <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form>
+        <!-- <header class="full-nave  ">
+            <div class="header">
+                <div class="container">
+                    <nav class="navbar top-fixed navbar-expand-lg header-scrolled">
+                        <div class="container-fluid">
+                            <a class="navbar-brand text-white padding" href="#"><img src="images/logo-white.png"
+                                    alt=""></a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                                aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarNav">
+                                <ul class="navbar-nav mx-auto">
+                                    <li class="nav-item">
+                                        <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                                    </li>
+                                    <li class="nav-item dropdown ">
+                                        <a class="nav-link dropdown-toggle text-white" href="#" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            Dropdown
+                                        </a>
+                                        <ul class="dropdown-menu text-white">
+                                            <li><a class="dropdown-item" href="#">Action</a></li>
+                                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                                            <li>
+                                                <hr class="dropdown-divider">
+                                            </li>
+                                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white" href="#">Pricing</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link disabled text-white">Disabled</a>
+                                    </li>
+                                </ul>
+                                <div class="header-right">
+                                    <div class="text-lg-end">
+                                        <a class="main-btn" href="">See plans</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
                 </div>
             </div>
-        </nav>
-        <div class="container">
+        </header> -->
+        <div class="container  ">
+            <nav class="navbar navbar-expand-lg ">
+                <div class="container-fluid">
+                    <a class="navbar-brand padding" href="#"><img src="images/logo-white.png" alt=""></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarText">
+                        <ul class="navbar-nav me-auto mx-5 mb-2 mb-lg-0">
+                            <li class="nav-item ">
+                                <a class="nav-link active text-white mx-4" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item dropdown mx-2">
+                                <a class="nav-link dropdown-toggle text-white" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Hosting
+                                </a>
+                                <ul class="dropdown-menu text-white">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active text-white mx-3" aria-current="page" href="#">VPS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active text-white mx-2" aria-current="page" href="#">Email</a>
+                            </li>
+                        </ul>
+                        <span class="navbar-text text-white mx-4">
+                            Login
+                        </span>
+                        <span class="navbar-text">
+                            <a class="main-btn ms-3 border-0" href="">See plans</a>
+                        </span>
+                    </div>
+                </div>
+            </nav>
             <div class="row">
                 <div class="col-md-6 ">
                     <div class="text-white padding">
-                        <h1 class="display-2 fw-bolder pt-5">Affordable
-                            Hostim Solution
+                        <h1 class="display-2 fw-bold  baner-heading pt-5">Affordable <br>
+                            Hostim Solution <br>
                             Website</h1>
-                        <p class="pb-5 pt-2">Make moves a free domain and SSL included with a yearly <br> susbscription.
+                        <p class="pb-5 pt-2 font-normal">Make moves a free domain and SSL included with a yearly <br>
+                            susbscription.
                         </p>
-                        <button type="button" class="btn py-3 px-3  rounded-pill   btn-outline-primary">See
-                            plans</button>
-                        <button type="button" class="btn ms-3 py-3 px-4 rounded-pill   btn-outline-primary">Try a free
-                            demo</button>
+                        <a class="main-btn" href="">See plans</a>
+                        <a class="big-btn ms-3 col-sm-pt-5" href="">Try a free demo</a>
+                        <p class="pt-4 Company-color">30 day money back guarantee</p>
+
                     </div>
 
                 </div>
                 <div class="col-md-6">
                     <div>
-                        <img src="images/banner-logo.png" alt="">
+                        <img class="img-fluid" src="images/banner-logo.png" alt="">
                     </div>
                 </div>
             </div>
@@ -103,14 +152,13 @@
                 <div class="col-md-6">
                     <div class="padding pt-5">
                         <h2 class="fw-bolder">More than 96K brands join & <br> website owners are satisfied</h2>
-                        <p class="pt-2">Don't just take our word for it. We're the web hosting provider <br> of choice
+                        <p class="pt-2">Don't just take our word for it. We're the web hosting provider <br> of
+                            choice
                             for thousands
                             of
                             happy customers.</p>
                         <div class="pt-5">
-                            <button type="button" class="btn ms-3 py-3 px-4 rounded-pill   btn-outline-primary">Try a
-                                free
-                                demo</button>
+                            <a class="big-btn ms-3 border" href="">Join us today</a>
                         </div>
                     </div>
                 </div>
@@ -154,9 +202,7 @@
                             </div>
                         </div>
                         <div class="pt-5">
-                            <button type="button" class="btn ms-3 py-3 px-4 rounded-pill   btn-outline-primary">Try a
-                                free
-                                demo</button>
+                            <a class="big-btn ms-3 border" href="">Join us today</a>
                         </div>
                     </div>
                 </div>
@@ -169,18 +215,72 @@
         </div>
     </section>
 
-    <!-- Services -->
-    <!-- <section>
+
+    <!------------------
+           Services 
+        ---------------------->
+
+
+    <section class="pt-5">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 ">
-                    <div class=" bg-image">
-                        <img class="img-fluid " src="images/men-smile.png" alt="">
+                <div class="col-md-6  pt-5 position-relative col-sm pt-5">
+                    <div class="padding bg-services-image pt-5 position-relative">
+                        <img class="service-men-img img-fluid pt-5 position-absolute bottom-0 start-50 translate-middle-x"
+                            src="images/men-smile.png" alt="">
+
+                    </div>
+                    <div class="bg-primary text-center services-phon-img  position-absolute ">
+                        <a href=""><img class="img-fluid" src="icons/phone.png" alt=""></a>
+                        <span class="text-white">(123) 234 - 5678</span>
+                    </div>
+                </div>
+                <div class="col-md-6 services-bg-color text-white ">
+                    <div class="pt-5 px-5">
+                        <h2 class="pb-2">Services that keep your <br> business in mind</h2>
+                        <p class="pb-5">Lorem Ipsum is simply dummy text of the printing and <br> typesetting industry
+                            hosting
+                            service
+                            provider</p>
+                    </div>
+                    <div class="d-flex">
+                        <div>
+                            <div class=" pt-5">
+                                <div class="px-5">
+                                    <img src="icons/net.png" alt="">
+                                    <p class="fw-bold">Service title</p>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting</p>
+                                </div>
+                            </div>
+                            <div class=" pt-5">
+                                <div class="px-5">
+                                    <img src="icons/database.png" alt="">
+                                    <p class="fw-bold">Service title</p>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class=" pt-5">
+                                <div class="px-5">
+                                    <img src="icons/com-data.png" alt="">
+                                    <p class="fw-bold">Service title</p>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting</p>
+                                </div>
+                            </div>
+                            <div class=" pt-5">
+                                <div class="px-5">
+                                    <img src="icons/cloud.png" alt="">
+                                    <p class="fw-bold">Service title</p>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section> -->
+    </section>
 
 
     <!--------------------------------------
@@ -191,13 +291,24 @@
         <div class="container py-5">
             <div class="text-center text-white">
                 <h1>Choose your hosting package</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                <p class="pt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                     <br> incididunt ut labore et dolore magna aliqua.
                 </p>
             </div>
-            <div class="row padding">
-                <div class="col-md-4">
-                    <div class="border">
+            <div class="py-4 d-flex justify-content-center align-items-center ">
+                <span class=" text-white px-3">Monthly</span>
+                <div class="form-check form-switch fs-3 pt-2 ">
+                    <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
+                    <label class="form-check-label" for="flexSwitchCheckChecked"></label>
+
+                </div>
+                <span class="text-white ">Yearly</span>
+                <span><img class="px-2 img-fluid" src="icons/arrow.png" alt=""></span>
+                <span class="chake-box-text-color">(10% saved)</span>
+            </div>
+            <div class="row  padding">
+                <div class="col-md-4 py-5">
+                    <div class="border gradiyent-color  pt-5">
                         <div class="text-white text-center">
                             <h2>Single Shared Hosting</h2>
                             <p>Ideal solution for beginners</p>
@@ -214,7 +325,7 @@
                             <h6>USD</h6>
                         </div>
                         <div class="text-center pb-3">
-                            <button class="bg-primary rounded-pill text-white fs-5 p-2 w-75">Select</button>
+                            <button class="bg-primary rounded-pill border-0 text-white fs-5 p-2 w-75">Select</button>
                             <p class="text-white pt-3"> $3.99/mo when you renew</p>
                         </div>
                         <div class="text-white">
@@ -249,6 +360,244 @@
                                             alt="">
                                         <span class="px-2">Cloudflare </span>
                                         <span class="font-normal">CDN ($9.95 value)</span>
+                                        <img class="img-fluid" src="icons/help_outline.png" alt="">
+                                    </p>
+                                    <p class="font-normal text-white ">Free Bonuses</p>
+                                    <p class="fw-bold text-white font-small">
+                                        <img class="pl-3 img-fluid" src="icons/right.png" alt="">
+                                        <span class="px-2">Weekly Backups </span>
+                                    </p>
+                                    <p class="fw-bold text-white font-small">
+                                        <img class="pl-3 img-fluid" src="icons/right.png" alt="">
+                                        <span class="px-2">Free </span>
+                                        <span class="font-normal">Domain ($8.99 value)</span>
+                                        <img class="img-fluid" src="icons/help_outline.png" alt="">
+                                    </p>
+                                    <p class="font-normal text-white ">WordPress Options</p>
+                                    <p class="fw-bold text-white font-small">
+                                        <img class="pl-3 img-fluid" src="icons/right.png" alt="">
+                                        <span class="px-2">Managed </span>
+                                        <span class="font-normal">WordPress</span>
+                                        <img class="img-fluid" src="icons/help_outline.png" alt="">
+                                    </p>
+
+                                    <p class="fw-bold text-white font-small">
+                                        <img class="pl-3 img-fluid" src="icons/wrong.png" alt="">
+                                        <span class="px-2">WordPress </span>
+                                        <span class="font-normal">Acceleration</span>
+                                        <img class="img-fluid" src="icons/help_outline.png" alt="">
+                                    </p>
+                                    <p class="fw-bold text-white font-small">
+                                        <img class="pl-3 img-fluid" src="icons/wrong.png" alt="">
+                                        <span class="px-2">WordPress Staging Tool </span>
+                                        <img class="img-fluid" src="icons/help_outline.png" alt="">
+                                    </p>
+                                    <p class="font-normal text-white ">Service and Support</p>
+                                    <p class="fw-bold text-white font-small">
+                                        <img class="pl-3 img-fluid" src="icons/right.png" alt="">
+                                        <span class="px-2">30 Days </span>
+                                        <span class="font-normal">Money Back <br>Guarantee</span>
+                                        <img class="img-fluid" src="icons/help_outline.png" alt="">
+                                    </p>
+                                    <p class="fw-bold text-white font-small">
+                                        <img class="pl-3 img-fluid" src="icons/right.png" alt="">
+                                        <span class="px-2">24/7/365</span>
+                                        <span class="font-normal">Support</span>
+                                        <img class="img-fluid" src="icons/help_outline.png" alt="">
+                                    </p>
+                                    <p class="fw-bold text-white font-small pb-2">
+                                        <img class="pl-3 img-fluid" src="icons/right.png" alt="">
+                                        <span class="px-2">99.9%</span>
+                                        <span class="font-normal">Uptime Guarantee</span>
+                                        <img class="img-fluid" src="icons/help_outline.png" alt="">
+                                    </p>
+                                    <div class="d-flex justify-content-center align-items-center">
+                                        <hr class="text-white w-75  ">
+                                    </div>
+                                    <div class="text-center">
+                                        <p class="font-normal text-white ">Service and Support
+                                            <span><img class="ms-2 img-fluid" src="icons/keyboard_arrow_down.png"
+                                                    alt=""></span>
+                                        </p>
+                                    </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4  ">
+
+                    <div class="border rounded bg-light">
+                        <div class="text-center py-2 rounded text-white bg-primary">
+                            <h6>Most popular</h6>
+                        </div>
+                        <div class="pt-2">
+                            <div class="pt-5 text-center">
+                                <h2>Single Shared Hosting</h2>
+                                <p>Ideal solution for beginners</p>
+                            </div>
+                        </div>
+                        <div class="text-center">
+                            <span>$12.49</span>
+                            <span class=" bg-primary rounded-pill p-2 ">SAVE 80%</span>
+
+                        </div>
+                        <div class="text-center py-4">
+                            <sup class="fs-3 mt-3 ">$</sup>
+                            <span class="display-4 fw-bolder">2.99</span>
+                            <sub class="fs-5">/mo</sub>
+                            <h6>USD</h6>
+                        </div>
+                        <div class="text-center pb-3">
+                            <button class="bg-primary rounded-pill border-0 fs-5 p-2 w-75">Select</button>
+                            <p class=" pt-3">$6.99/mo when you renew</p>
+                        </div>
+                        <div class="">
+                            <p class="px-4 font-small font-normal">Top feature comparison</p>
+                        </div>
+                        <div class="px-4">
+                            <p class="fw-bold font-small">100 <span class="font-normal px-2">website</span>
+                            </p>
+                            <p class="fw-bold  font-small">100 GB <span class="font-normal px-2">SSD
+                                    <p class="fw-bold  font-small">~25 000 <span class="font-normal px-2">Visits
+                                            Monthly</span></p>
+                                    <p class="fw-bold  font-small">Free<span class="font-normal px-2">Email
+                                            Account</span></p>
+                                    <p class="fw-bold  font-small">Unlimited <span class="font-normal px-2">
+                                            Bandwidth</span></p>
+                                    <p class="fw-bold  font-small">Unlimited<span class="font-normal px-2">
+                                            Databases</span></p>
+                                    <p class="font-normal  ">Security</p>
+                                    <p class="fw-bold  font-small"><img class="pl-3 img-fluid" src="icons/right.png"
+                                            alt="">
+                                        <span class="px-2">Unlimited</span>
+                                        <span class="font-normal">Free SSL</span>
+                                        <img class="img-fluid" src="icons/help_outline.png" alt="">
+                                    </p>
+                                    <p class="fw-bold  font-small"><img class="pl-3 img-fluid" src="icons/right.png"
+                                            alt="">
+                                        <span class="px-2">Cloudflare</span>
+                                        <span class="font-normal"> Protected <br> Nameservers</span>
+
+                                    </p>
+                                    <p class="fw-bold  font-small"><img class="pl-3" src="icons/wrong.png" alt="">
+                                        <span class="px-2">Cloudflare </span>
+                                        <span class="font-normal">CDN ($9.95 value)</span>
+                                        <img src="icons/help_outline.png" alt="">
+                                    </p>
+                                    <p class="font-normal  ">Free Bonuses</p>
+                                    <p class="fw-bold  font-small">
+                                        <img class="pl-3" src="icons/right.png" alt="">
+                                        <span class="px-2">Weekly Backups </span>
+                                    </p>
+                                    <p class="fw-bold  font-small">
+                                        <img class="pl-3" src="icons/right.png" alt="">
+                                        <span class="px-2">Free </span>
+                                        <span class="font-normal">Domain ($8.99 value)</span>
+                                        <img src="icons/help_outline.png" alt="">
+                                    </p>
+                                    <p class="font-normal ">WordPress Options</p>
+                                    <p class="fw-bold  font-small">
+                                        <img class="pl-3" src="icons/right.png" alt="">
+                                        <span class="px-2">Managed </span>
+                                        <span class="font-normal">WordPress</span>
+                                        <img src="icons/help_outline.png" alt="">
+                                    </p>
+
+                                    <p class="fw-bold font-small">
+                                        <img class="pl-3" src="icons/wrong.png" alt="">
+                                        <span class="px-2">WordPress </span>
+                                        <span class="font-normal">Acceleration</span>
+                                        <img src="icons/help_outline.png" alt="">
+                                    </p>
+                                    <p class="fw-bold  font-small">
+                                        <img class="pl-3" src="icons/wrong.png" alt="">
+                                        <span class="px-2">WordPress Staging Tool </span>
+                                        <img src="icons/help_outline.png" alt="">
+                                    </p>
+                                    <p class="font-normal  ">Service and Support</p>
+                                    <p class="fw-bold  font-small">
+                                        <img class="pl-3" src="icons/right.png" alt="">
+                                        <span class="px-2">30 Days </span>
+                                        <span class="font-normal">Money Back <br>Guarantee</span>
+                                        <img src="icons/help_outline.png" alt="">
+                                    </p>
+                                    <p class="fw-bold  font-small">
+                                        <img class="pl-3" src="icons/right.png" alt="">
+                                        <span class="px-2">24/7/365</span>
+                                        <span class="font-normal">Support</span>
+                                        <img src="icons/help_outline.png" alt="">
+                                    </p>
+                                    <p class="fw-bold  font-small pb-2">
+                                        <img class="pl-3" src="icons/right.png" alt="">
+                                        <span class="px-2">99.9%</span>
+                                        <span class="font-normal">Uptime Guarantee</span>
+                                        <img src="icons/help_outline.png" alt="">
+                                    </p>
+                                    <div class="d-flex justify-content-center align-items-center">
+                                        <hr class="w-100">
+                                    </div>
+                                    <div class="text-center">
+                                        <p class="font-normal  ">Service and Support
+                                            <span>
+                                                <img class="ms-2 dark" src="icons/keyboard_arrow_down_dark.png" alt="">
+                                            </span>
+                                        </p>
+                                    </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 pt-5">
+                    <div class="border rounded gradiyent-color">
+                        <div class="text-white text-center pt-5">
+                            <h2>Single Shared Hosting</h2>
+                            <p>Ideal solution for beginners</p>
+                        </div>
+                        <div class="text-white text-center">
+                            <span>$12.49</span>
+                            <span class=" bg-primary rounded-pill p-2 ">SAVE 80%</span>
+
+                        </div>
+                        <div class="text-white text-center py-4">
+                            <sup class="fs-3 mt-3 ">$</sup>
+                            <span class="display-4 fw-bolder">3.99</span>
+                            <sub class="fs-5">/mo</sub>
+                            <h6>USD</h6>
+                        </div>
+                        <div class="text-center pb-3">
+                            <button class="bg-primary border-0 rounded-pill text-white fs-5 p-2 w-75">Select</button>
+                            <p class="text-white pt-3">$6.99/mo when you renew</p>
+                        </div>
+                        <div class="text-white">
+                            <p class="px-4 font-small font-normal">Top feature comparison</p>
+                        </div>
+                        <div class="px-4">
+                            <p class="fw-bold  text-white font-small">100 <span class="font-normal px-2">website</span>
+                            </p>
+                            <p class="fw-bold text-white font-small">100 GB <span class="font-normal px-2">SSD
+                                    <p class="fw-bold text-white font-small">~25 000 <span
+                                            class="font-normal px-2">Visits Monthly</span></p>
+                                    <p class="fw-bold text-white font-small">Free<span class="font-normal px-2">Email
+                                            Account</span></p>
+                                    <p class="fw-bold text-white font-small">Unlimited <span class="font-normal px-2">
+                                            Bandwidth</span></p>
+                                    <p class="fw-bold text-white font-small">Unlimited<span class="font-normal px-2">
+                                            Databases</span></p>
+                                    <p class="font-normal text-white ">Security</p>
+                                    <p class="fw-bold text-white font-small"><img class="pl-3" src="icons/right.png"
+                                            alt="">
+                                        <span class="px-2">Unlimited</span>
+                                        <span class="font-normal">Free SSL</span>
+                                        <img src="icons/help_outline.png" alt="">
+                                    </p>
+                                    <p class="fw-bold text-white font-small"><img class="pl-3" src="icons/right.png"
+                                            alt="">
+                                        <span class="px-2">Cloudflare</span>
+                                        <span class="font-normal"> Protected <br> Nameservers</span>
+
+                                    </p>
+                                    <p class="fw-bold text-white font-small"><img class="pl-3" src="icons/wrong.png"
+                                            alt="">
+                                        <span class="px-2">Cloudflare </span>
+                                        <span class="font-normal">CDN ($9.95 value)</span>
                                         <img src="icons/help_outline.png" alt="">
                                     </p>
                                     <p class="font-normal text-white ">Free Bonuses</p>
@@ -263,12 +612,61 @@
                                         <img src="icons/help_outline.png" alt="">
                                     </p>
                                     <p class="font-normal text-white ">WordPress Options</p>
+                                    <p class="fw-bold text-white font-small">
+                                        <img class="pl-3" src="icons/right.png" alt="">
+                                        <span class="px-2">Managed </span>
+                                        <span class="font-normal">WordPress</span>
+                                        <img src="icons/help_outline.png" alt="">
+                                    </p>
+
+                                    <p class="fw-bold text-white font-small">
+                                        <img class="pl-3" src="icons/wrong.png" alt="">
+                                        <span class="px-2">WordPress </span>
+                                        <span class="font-normal">Acceleration</span>
+                                        <img src="icons/help_outline.png" alt="">
+                                    </p>
+                                    <p class="fw-bold text-white font-small">
+                                        <img class="pl-3" src="icons/wrong.png" alt="">
+                                        <span class="px-2">WordPress Staging Tool </span>
+                                        <img src="icons/help_outline.png" alt="">
+                                    </p>
+                                    <p class="font-normal text-white ">Service and Support</p>
+                                    <p class="fw-bold text-white font-small">
+                                        <img class="pl-3" src="icons/right.png" alt="">
+                                        <span class="px-2">30 Days </span>
+                                        <span class="font-normal">Money Back <br>Guarantee</span>
+                                        <img src="icons/help_outline.png" alt="">
+                                    </p>
+                                    <p class="fw-bold text-white font-small">
+                                        <img class="pl-3" src="icons/right.png" alt="">
+                                        <span class="px-2">24/7/365</span>
+                                        <span class="font-normal">Support</span>
+                                        <img src="icons/help_outline.png" alt="">
+                                    </p>
+                                    <p class="fw-bold text-white font-small pb-2">
+                                        <img class="pl-3" src="icons/right.png" alt="">
+                                        <span class="px-2">99.9%</span>
+                                        <span class="font-normal">Uptime Guarantee</span>
+                                        <img src="icons/help_outline.png" alt="">
+                                    </p>
+                                    <div class="d-flex justify-content-center align-items-center">
+                                        <hr class="text-white w-75  ">
+                                    </div>
+                                    <div class="text-center">
+                                        <p class="font-normal text-white ">Service and Support
+                                            <span><img class="ms-2" src="icons/keyboard_arrow_down.png" alt=""></span>
+                                        </p>
+                                    </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <!----------------------------------------
+                 Our Services 
+    ----------------------------------->
 
     <section class="py-5">
         <div class="container pt-5">
@@ -341,6 +739,36 @@
         </div>
     </section>
 
+    <section class="service-wrapper">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-7 our-service-bg-color">
+                    <div>
+                        <img class="img-fluid" src="images/menlaptop.png" alt="">
+                    </div>
+                </div>
+                <div class="col-md-5 col-sm-6">
+                    <div class="card ">
+                        <div class="card-body ">
+                            <img src="icons/qute1.png" alt="">
+                            <p class="fs-4">I love the performance and the technical support! Since WiredTree acquired
+                                me,
+                                I've had a lot
+                                of downtimes. It's incredible how much faster my site loads now because it works so
+                                well.
+                                Also, they have the best support. Particularly their technical knowledge. Hostim is
+                                great!
+                                I'm glad I switched!</p>
+                            <div class="d-flex justify-content-end align-items-end">
+                                <img src="icons/qute2.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section>
         <div class="container py-5">
             <div class="row">
@@ -360,7 +788,8 @@
                                         Velit officia consequat duis enim <br> velit mollit. rcitation veniam consequat
                                         sunt
                                     </p>
-                                    <button class="border-0 font-medium border-bottom bg-transparent">Read more</button>
+                                    <button class="border-0 font-medium border-bottom-1 bg-transparent">Read
+                                        more</button>
                                     <div class="d-flex pt-4">
                                         <div>
                                             <img class="img-fluid" src="images/user.png" alt="">
@@ -527,7 +956,12 @@
                                 </div>
                                 <div class="swiper-slide">
                                 </div>
-                                <div class="swiper-pagination"></div>
+                                <div class="swiper-pagination d-none pt-5">
+                                    <div>
+                                        <img src="icons/arrow.png" alt="">
+                                        <img src="icons/arrow.png" alt="">
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -540,10 +974,56 @@
                 <div class="col-md-6 pt-5">
                     <div class="padding pt-5">
                         <h5 class="pt-2">Spacific tags</h5>
-                        <h1>Lorem Ipsum is probably the most popular</h1>
-                        <p>To a degree, Lorem Ipsum is gibberish, but it is rooted in a real language: Latin. The text's
-                            origins are based on a passage from a piece of classicall.</p>
-                        <button>Read more</button>
+                        <h2 class="fw-bold">Lorem Ipsum is probably the most popular</h2>
+                        <p class="pb-3 pt-3">To a degree, Lorem Ipsum is gibberish, but it is rooted in a real <br>
+                            language:
+                            Latin. The text's
+                            origins are based on a passage from <br> a piece of classicall.</p>
+                        <a class="main-btn pt" href="">CTA Button</a>
+                    </div>
+                </div>
+                <div class="col-md-6 pt-4 Spacific-bg-img">
+                    <div class="pt-5 d-flex justify-content-center align-items-center">
+                        <img class="img-fluid w-75" src="images/control_panel.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-5">
+        <div class="container ">
+            <div class="row">
+                <div class="col-md-6 pt-4 Spacific-bg-img-blue">
+                    <div class="pt-5 d-flex justify-content-center align-items-center">
+                        <img class="img-fluid w-75" src="images/control_panel.png" alt="">
+                    </div>
+                </div>
+                <div class="col-md-6 pt-5">
+                    <div class="padding pt-5">
+                        <h5 class="pt-2">Spacific tags</h5>
+                        <h2 class="fw-bold">Lorem Ipsum is probably the most popular</h2>
+                        <p class="pb-3 pt-3">To a degree, Lorem Ipsum is gibberish, but it is rooted in a real <br>
+                            language: Latin. The
+                            text's
+                            origins are based on a passage from <br> a piece of classicall.</p>
+                        <a class="main-btn pt" href="">CTA Button</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-5 Spacific-color">
+        <div class="container ">
+            <div class="row">
+                <div class="col-md-6 pt-5">
+                    <div class="padding pt-5">
+                        <h5 class="pt-2">Spacific tags</h5>
+                        <h2 class="fw-bold">Lorem Ipsum is probably the most popular</h2>
+                        <p class="pb-3 pt-3">To a degree, Lorem Ipsum is gibberish, but it is rooted in a real <br>
+                            language:
+                            Latin. The text's
+                            origins are based on a passage from <br> a piece of classicall.</p>
+                        <a class="main-btn pt" href="">CTA Button</a>
                     </div>
                 </div>
                 <div class="col-md-6 pt-4 Spacific-bg-img">
@@ -588,12 +1068,119 @@
                     </div>
                 </div>
                 <div class="py-5">
-                    <img class="padding pt-5" src="images/map.png" alt="">
+                    <img class="padding img-fluid pt-5" src="images/map.png" alt="">
                 </div>
             </div>
         </div>
     </section>
 
+    <!------------------------------------------
+             Frequently Asked Questions
+    -------------------------------------------->
+
+    <div class="container py-5">
+        <div class="text-center py-5">
+            <h1>Frequently Asked Questions</h1>
+            <p>Everything you need to know about the product and billing.</p>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="padding">
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button border-top-0 fs-2" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
+                                    aria-controls="collapseOne">
+                                    Everything you need to know about the product and billing.
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body pb-5 fs-5">
+                                    Yes, you can try us for free for 30 days. If you want, we’ll provide you with a
+                                    free, personalized 30-minute onboarding call to get you up and running as soon as
+                                    possible.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed pt-5 fs-2" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                                    aria-controls="collapseTwo">
+                                    Can I change my plan later?
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body pb-5 fs-5">
+                                    We're not always in the position that we want to be at. We're constantly growing.
+                                    We're constantly making mistakes. We're constantly trying to express ourselves and
+                                    actualize our dreams.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed pt-5 fs-2" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+                                    aria-controls="collapseThree">
+                                    What is your cancellation policy?
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body pb-5 fs-5">
+                                    We're not always in the position that we want to be at. We're constantly growing.
+                                    We're constantly making mistakes. We're constantly trying to express ourselves and
+                                    actualize our dreams..
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed pt-5 fs-2" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseFore" aria-expanded="false"
+                                    aria-controls="collapseFore">
+                                    Can other info be added to an invoice?
+                                </button>
+                            </h2>
+                            <div id="collapseFore" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body pb-5 fs-5">
+                                    We're not always in the position that we want to be at. We're constantly growing.
+                                    We're constantly making mistakes. We're constantly trying to express ourselves and
+                                    actualize our dreams..
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed pt-5 fs-2" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false"
+                                    aria-controls="collapseFive">
+                                    How does billing work?
+                                </button>
+                            </h2>
+                            <div id="collapseFive" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body pb-5 fs-5">
+                                    We're not always in the position that we want to be at. We're constantly growing.
+                                    We're constantly making mistakes. We're constantly trying to express ourselves and
+                                    actualize our dreams..
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!----------------
+          footer
+     ----------------->
     <footer class="py-5 footer-bg-color">
         <div class="container">
             <div class="row">
@@ -698,7 +1285,7 @@
                             <span class="footer-last-text ">© 2022 Hostim. Tous droits réservés.</span>
                         </div>
                     </div>
-                    <div class="col-md-6 ">
+                    <div class="col-md-6 col-sm-6 pt-4 d-flex justify-content-start align-items-start">
                         <div class="ms-3 d-flex justify-content-end align-items-end">
                             <img class="ms-4" src="icons/tw.png" alt="">
                             <img class="ms-4" src="icons/link.png" alt="">
@@ -747,8 +1334,8 @@
             slidesPerView: 3,
             // centeredSlides: true,
             spaceBetween: 30,
-            grabCursor: true,
-            delay: 500,
+            // grabCursor: true,
+            // delay: 500,
             pagination: {
                 el: ".swiper-pagination",
                 clickable: true,
